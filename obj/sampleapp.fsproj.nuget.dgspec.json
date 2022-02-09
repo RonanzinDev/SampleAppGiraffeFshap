@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Ronan\\Desktop\\Prog\\fsharp\\giraffesamples\\sampleapp\\sampleapp.fsproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Ronan\\Desktop\\Prog\\fsharp\\giraffesamples\\sampleapp\\sampleapp.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ronan\\Desktop\\Prog\\fsharp\\giraffesamples\\sampleapp\\sampleapp.fsproj",
+        "projectName": "sampleapp",
+        "projectPath": "C:\\Users\\Ronan\\Desktop\\Prog\\fsharp\\giraffesamples\\sampleapp\\sampleapp.fsproj",
+        "packagesPath": "C:\\Users\\Ronan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ronan\\Desktop\\Prog\\fsharp\\giraffesamples\\sampleapp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ronan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FSharp.Core": {
+              "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[6.0.1, )",
+              "generatePathProperty": true
+            },
+            "Giraffe": {
+              "target": "Package",
+              "version": "[5.0.0, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
